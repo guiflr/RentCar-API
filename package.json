@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_nodules --respawn src/server.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_nodules --respawn src/server.ts",
+    "build": "tsc",
+    "prod": "node dist/src/server.js"
   },
   "dependencies": {
     "csv-parse": "^4.16.3",
