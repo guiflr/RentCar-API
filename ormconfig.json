@@ -2,7 +2,7 @@
     "type": "postgres",
     "port": 5432,
     "host": "localhost",
-    "username": "guifler",
+    "username": "study",
     "password": "102030",
     "database": "rentx",
     "migrations": ["./src/database/migrations/*.ts"],
